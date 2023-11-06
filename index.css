@@ -1,0 +1,157 @@
+body{   
+  padding: 5%;
+  background-size: cover;
+  display:flex;
+  font-family: 'Playfair Display', serif;
+  background-image: url("https://img.freepik.com/fotos-premium/pantalla-producto-elemento-patron-diseno-textura-fondo-abstracto-blanco-fondo-banner_655634-28.jpg?w=826");
+}
+
+.container { display: flex;
+    flex-shrink: 3;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr;
+    gap: 0% 0%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "global global global"
+      "global global global"
+      "global global global";
+  }
+  
+  .global {  display:grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr .5fr;
+    gap: 0% 0%;
+    grid-template-areas:
+      "a1 a1 a1"
+      "b1 b1 b1"
+      "c1 c1 c1";
+    grid-area: global;
+  }
+  
+  .a1 {  display: grid;
+    text-align: left;
+    grid-template-columns: 70% 10% 10% 10%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 3% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "a2 a4 a5 a6"
+      "a3 a4 a5 a6"
+      "a3 a4 a5 a6";
+    grid-area: a1;
+  }
+  
+  .a2 { grid-area: a2; }
+  
+  .a3 { grid-area: a3; }
+  
+  .a4 { grid-area: a4; }
+  
+  .a5 { grid-area: a5; }
+  
+  .a6 { grid-area: a6; }
+  
+  .b1 {  display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 40% 20% 20%;
+    gap: 3% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "b2 b3 b4 b5 b6"
+      "b7 b8 b9 b10 b11"
+      "b12 b13 b14 b15 b16";
+    grid-area: b1;
+  }
+  
+  .b2 { grid-area: b2; }
+  
+  .b3 { grid-area: b3; }
+  
+  .b4 { grid-area: b4; }
+  
+  .b5 { grid-area: b5; }
+  
+  .b6 { grid-area: b6; }
+  
+  .b7 { grid-area: b7; }
+  
+  .b8 { grid-area: b8; }
+  
+  .b9 { grid-area: b9; }
+  
+  .b10 { grid-area: b10; }
+  
+  .b11 { grid-area: b11; }
+  
+  .b12 { grid-area: b12; }
+  
+  .b13 { grid-area: b13; }
+  
+  .b14 { grid-area: b14; }
+  
+  .b15 { grid-area: b15; }
+  
+  .b16 { grid-area: b16; }
+  
+  .c1 {  display: grid;
+    grid-template-columns: .4fr .4fr .4fr .4fr;
+    grid-template-rows: .3fr .3fr .3fr;
+    gap: 3% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "c2 c2 c2 c2"
+      "c3 c4 c5 c6"
+      "c3 c4 c5 c6";
+    grid-area: c1;
+  }
+  
+  .c2 { grid-area: c2; }
+  
+  
+  .c4 { grid-area: c4; }
+  
+  .c5 { grid-area: c5; }
+  
+  .c6 { grid-area: c6; }
+
+  .b1 img{
+    border: 2px solid rgb(4, 95, 174);
+    height: 98%;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+  }
+
+  p{
+    text-align: center;
+    line-height: 1.0;
+    align-items: center;
+    justify-content: center;
+  }
+  h3{
+    text-align:left;
+    height: 300%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  h6{
+    text-align: center;
+    line-height: .5;
+    height: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  #c3 {
+    display: flex;
+    height: 300%;
+    align-items: center;
+    justify-content: center;
+  }
+  
